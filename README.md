@@ -1,7 +1,5 @@
 # LeetCode Patterns
 
-Bienvenue dans ce dépôt !
-
 Ce projet vise à compiler les principaux **modèles algorithmiques** que j'ai appris et mis en pratique sur LeetCode.
 
 Contrairement à un simple recueil de solutions, cette archive met l'accent sur la **compréhension des techniques** plutôt que sur la résolution d'un problème spécifique. Chaque dossier présente un modèle réutilisable, son principe, son implémentation, sa complexité, les erreurs courantes et des exercices pour l'appliquer.
