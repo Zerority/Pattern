@@ -14,7 +14,6 @@ Chaque pattern contient généralement :
 - les situations où il est pertinent de l'utiliser ;
 - un template Python réutilisable ;
 - une analyse de complexité ;
-- les pièges les plus fréquents ;
 - une sélection de problèmes LeetCode.
 
 ---
