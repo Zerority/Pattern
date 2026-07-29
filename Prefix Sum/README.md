@@ -59,8 +59,9 @@ prefix[3] = 13
 ```python
 prefix = [0]
 
-for num in nums:
-    prefix.append(prefix[-1] + num)
+for i in range(len(nums)):
+    num = prefix[-1] + nums[i]
+    prefix.append(num)
 ```
 
 ### Complexité
