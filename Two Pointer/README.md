@@ -160,32 +160,6 @@ Les mots-clés sont souvent :
 
 ---
 
-## Pièges fréquents
-
-### 1. Oublier la condition d'arrêt
-
-Toujours utiliser :
-
-```python
-while left < right:
-```
-
----
-
-### 2. Déplacer le mauvais pointeur
-
-Après chaque comparaison, un seul pointeur doit généralement être déplacé.
-
----
-
-### 3. Utiliser Two Pointers sur un tableau non trié
-
-L'approche **Left & Right** fonctionne généralement lorsque le tableau est déjà trié.
-
-Si le tableau n'est pas trié, un **Hash Map** est souvent une meilleure solution (par exemple pour *Two Sum*).
-
----
-
 ## Exercices
 
 ### Easy
