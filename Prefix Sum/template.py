@@ -1,9 +1,9 @@
 nums = [1,4,6,8]
-Prefix_sum = [0]
+prefix = [0]
 for i in range(len(nums)):
-    num = Prefix_sum[-1] + nums[i]
-    Prefix_sum.append(num)
-print(Prefix_sum)
+    num = prefix[-1] + nums[i]
+    prefix.append(num)
+print(prefix)
 
 #Commencer avec le numéro 0 dans le "prefix sum", nums[i] => nums[0] => 1
 #num = Prefix_sum[-1] => La dernière chiffre dans l'array, => num = 0 + 1 = 1 => Prefix_sum = [0,1]
@@ -11,9 +11,9 @@ print(Prefix_sum)
 #Après cette boucle, => Prefix_sum = [0, 1, 5, 11, 19]
 #Pour calculer la somme de cet array, par example, l'index 0 et l'index 3
 #=>
-answer = Prefix_sum[4] - Prefix_sum[0]
+answer = prefix[4] - prefix[0]
 #Plus généralement :
-answer = Prefix_sum[right+1] - Prefix_sum[left]
+answer = prefix[right+1] - prefix[left]
 #Notes:
 #Ici, "left" et "right" représentent la distance. 
 #Pourquoi right + 1 ? 
