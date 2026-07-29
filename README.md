@@ -35,6 +35,4 @@ Chaque pattern contient généralement :
 - Disposer d'une ressource de révision avant les entretiens techniques.
 - Suivre ma progression au fil de mon apprentissage.
 
----
 
-> *"Comprendre un pattern est souvent plus utile que mémoriser des dizaines de solutions."*
