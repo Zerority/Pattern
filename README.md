@@ -25,6 +25,7 @@ Chaque pattern contient généralement :
 - Hash Map / Hash Set
 - Sliding Window
 - Stack
+- Queue
 - Binary Search
 - Linked List
 
